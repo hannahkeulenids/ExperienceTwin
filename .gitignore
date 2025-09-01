@@ -1,0 +1,70 @@
+# ---- Unreal Engine 5.4 ----
+# Gebaseerd op officiële Epic Games voorbeelden en community best practices
+
+# Binaries & tussenbestanden
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+.idea/
+
+# Unreal Build Tool
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Build output
+*.exe
+*.dll
+*.app
+*.dylib
+*.so
+*.pdb
+*.mod
+*.appx
+
+# Config caches
+*.log
+*.tlog
+*.tmp
+*.csproj
+*.targets
+*.user
+*.userprefs
+
+# Compiled shader cache
+*.sdb
+*.sdf
+*.cache
+*.db
+*.opendb
+
+# Backup en autosave
+*.bak
+*_Backup*/
+*.autosave
+
+# Ignore crash reports
+CrashReportClient/
+
+# Ignore plugins die lokaal zijn geïnstalleerd (optioneel)
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Ignore project specifieke derived data
+DerivedDataCache/*
+!DerivedDataCache/Readme.txt
+
+# Optional: exclude local content not for version control
+Content/StarterContent/
+Content/Developers/
+
+
